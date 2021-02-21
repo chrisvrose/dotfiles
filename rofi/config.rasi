@@ -1,0 +1,10 @@
+
+
+configuration {
+    theme: "~/.cache/wal/colors-rofi-dark.rasi";
+    modi: "drun,run";
+    combi-modi: "window,drun,ssh";
+    icon-theme: "Papirus";
+    display-drun: "Search";
+    show-icons: true;
+}
