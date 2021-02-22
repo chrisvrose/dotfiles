@@ -11,10 +11,11 @@ Wallpaper: https://old.reddit.com/r/Art/comments/7ysmt2/lakeside_sunset_digital_
 |**For**| **What**|
 |---|---|
 |Base|Manjaro(XFCE)|
+|Theme|Matcha sea aliz|
 |Window Manager| `i3`|
 |Compositor|`picom`|
 |Application Launcher| ~~`dmenu`~~ `rofi`|
-|Color Schemes| `pywal`|
+|Color Schemes|`pywal`|
 |Wallpaper| `feh` (`pywal` uses it)|
 
 

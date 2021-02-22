@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/atreya/.config/wpg/wallpapers/wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040406",
+        "foreground": "#fedbe2",
+        "cursor": "#fedbe2"
+    },
+    "colors": {
+        "color0": "#040406",
+        "color1": "#DC6B37",
+        "color2": "#8F4E47",
+        "color3": "#CD663B",
+        "color4": "#9C4F48",
+        "color5": "#A9635E",
+        "color6": "#AB5B42",
+        "color7": "#c7acb1",
+        "color8": "#8d86a2",
+        "color9": "#ff8435",
+        "color10": "#c75a4e",
+        "color11": "#ff7d3b",
+        "color12": "#d95a4e",
+        "color13": "#ec7169",
+        "color14": "#ed6e46",
+        "color15": "#fedbe2"
+    }
+}
