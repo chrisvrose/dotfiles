@@ -246,3 +246,9 @@ gaps inner 5
 smart_gaps on
 # for_window [class="*.*"] border pixel 1
 bindsym $alt+Control+t exec --no-startup-id xfce4-terminal --drop-down
+bindsym Print exec --no-startup-id xfce4-screenshooter -f -s ~/Pictures/Screenshots/
+bindsym $mod+Print exec --no-startup-id xfce4-screenshooter
+# Play Pause
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl play-pause
+
