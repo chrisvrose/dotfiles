@@ -12,6 +12,7 @@ Wallpaper: https://old.reddit.com/r/Art/comments/7ysmt2/lakeside_sunset_digital_
 |---|---|
 |Base|Manjaro(XFCE)|
 |Theme|Matcha sea aliz|
+|Terminal|`xfce4-terminal`,`alacritty`|
 |Window Manager| `i3`|
 |Compositor|`picom`|
 |Application Launcher| ~~`dmenu`~~ `rofi`|
