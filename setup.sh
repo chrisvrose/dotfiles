@@ -10,6 +10,7 @@ test ! -f ~/.config/wallpaper/wallpaper.jpg && echo "Download to ~/.config/wallp
 # dunst
 test ! -d ~/.config/dunst && ln -s "$(pwd)/dunst" ~/.config/dunst
 
+test ! -d ~/.config/alacritty && ln -s "$(pwd)/alacritty" ~/.config/alacritty
 
 # wallpaper 
 mkdir -p ~/.config/wallpaper/
