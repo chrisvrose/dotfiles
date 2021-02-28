@@ -50,6 +50,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 exec --no-startup-id blueman-applet
 exec --no-startup-id xfce4-power-manager
 
+# Auth agent for gui applications asking for permissions
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
