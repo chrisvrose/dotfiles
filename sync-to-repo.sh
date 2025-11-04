@@ -1,4 +1,4 @@
 #! /bin/bash
 
-rsync -avp ~/.config/zed ./zed
-rsync -avp ~/.config/sway ./sway
+rsync -ap $@ ~/.config/zed/ ./zed
+rsync -ap $@ ~/.config/sway/ ./sway
