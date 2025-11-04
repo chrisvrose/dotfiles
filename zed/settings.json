@@ -1,0 +1,42 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "icon_theme": "Material Icon Theme",
+  "buffer_font_family": "Monocraft",
+  "minimap": {
+    "show": "auto"
+  },
+  "format_on_save": "off",
+  "buffer_font_features": {
+    "calt": 0
+  },
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Min Dark (Solid)"
+  },
+  "languages": {
+    "JavaScript": {
+      "language_servers": ["!tailwindcss-language-server", "..."]
+    }
+  }
+}
