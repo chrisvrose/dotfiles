@@ -7,36 +7,56 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "title_bar": {
-    "show_sign_in": false
-  },
-  "collaboration_panel": {
-    "button": false
-  },
-  "icon_theme": "Material Icon Theme",
-  "buffer_font_family": "Monocraft",
-  "minimap": {
-    "show": "auto"
-  },
-  "format_on_save": "off",
-  "buffer_font_features": {
-    "calt": 0
-  },
-  "disable_ai": true,
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "ui_font_size": 16,
-  "buffer_font_size": 16.0,
-  "theme": {
-    "mode": "system",
-    "light": "Ayu Light",
-    "dark": "Min Dark (Solid)"
-  },
-  "languages": {
-    "JavaScript": {
-      "language_servers": ["!tailwindcss-language-server", "..."]
+    "language_models": {
+        "ollama": {
+            "api_url": "http://localhost:11434"
+        }
+    },
+    "agent": {
+        "default_profile": "ask",
+        "default_model": {
+            "provider": "ollama",
+            "model": "granite4:350m"
+        },
+        "model_parameters": []
+    },
+    "title_bar": {
+        "show_sign_in": false
+    },
+    "collaboration_panel": {
+        "button": false
+    },
+    "icon_theme": "Material Icon Theme",
+    "buffer_font_family": "Monocraft",
+    "minimap": {
+        "show": "auto"
+    },
+    "format_on_save": "off",
+    "buffer_font_features": {
+        "calt": 0
+    },
+    "disable_ai": true,
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 16.0,
+    "theme": {
+        "mode": "system",
+        "light": "Ayu Light",
+        "dark": "Min Dark (Solid)"
+    },
+    "tab_size": 4,
+    "languages": {
+        "JavaScript": {
+            "tab_size": 4,
+            // "language_servers": ["!tailwindcss-language-server","!vtsls", "..."]
+        },
+        "TypeScript": {
+            "tab_size": 4,
+            // "language_servers": ["!tailwindcss-language-server","!vtsls", "..."]
+        },
+
     }
-  }
 }
